@@ -1,6 +1,7 @@
 import speech_to_text
 import gpt_interaction
 from mycobot_control import MyCobotController
+import commanda_parser
 
 def main():
     print("system is running! Please say your  command")
@@ -15,8 +16,15 @@ def main():
 
         print(f"你说出的指令是：{speech_input}")
 
-        #指令传输到chatgpt来省城控制指令。
-        control_command = command_parser.parse_and_execute_command(speech_input)
+        # 生成代码指令
+        generate_code = gpt_interaction.generate_control_code(speech_input)
+
+        commanda_parser.execute_command(robot,generate_code)
+
+
+
+
+
 
 
 

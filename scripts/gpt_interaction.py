@@ -24,6 +24,7 @@ def generate_control_code(prompt):
         return ""
 
 
+
 def main():
     print("欢迎使用语音控制的myCobot机械臂")
     print("请说出控制机械臂的指令，比如'向前移动10厘米'")
