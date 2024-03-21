@@ -1,6 +1,6 @@
 import speech_to_text
-import command_parser
-import mycobot_control
+import gpt_interaction
+from mycobot_control import MyCobotController
 
 def main():
     print("system is running! Please say your  command")
@@ -22,4 +22,5 @@ def main():
 
 
 if __name__ == "__main__":
-    None
+    robot = MyCobotController('com4', 115200)
+    main()
