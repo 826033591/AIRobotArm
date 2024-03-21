@@ -6,7 +6,7 @@ pre_training= "Generate Python code that matches the following requirements: " \
                " just output the code directly, for example, the robot arm returns to the origin.robot.move_to_zero()\nThe requirements are as follows:" \
                "Let the robotic arm return to the origin.Move to grab position.Increase the Z-axis of the robot arm by 30"
 
-OPENAI_API_KEY = "your api key"
+
 
 SPEECH_RECOGNITION_LANGUAGE = "en-US"
 

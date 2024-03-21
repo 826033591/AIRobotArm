@@ -5,7 +5,7 @@ def generate_control_code(prompt):
     """
   使用ChatGPT根据提供的提示（prompt）生成控制机械臂的代码。
   """
-    openai.api_key = 'your_openai_api_key_here'
+    openai.api_key = ''
 
     try:
         response = openai.Completion.create(
