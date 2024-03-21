@@ -1,0 +1,4 @@
+2024-03-21 12:03:08 - test_logger - INFO - 这是一条info信息
+2024-03-21 12:03:08 - test_logger - WARNING - 这是一条warning信息
+2024-03-21 12:03:08 - test_logger - ERROR - 这是一条error信息
+2024-03-21 12:03:08 - test_logger - CRITICAL - 这是一条critical信息
