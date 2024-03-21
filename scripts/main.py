@@ -2,7 +2,7 @@ import speech_to_text
 import gpt_interaction
 from mycobot_control import MyCobotController
 import commanda_parser
-import settings
+
 
 def main():
     print("system is running! Please say your  command")
@@ -21,13 +21,6 @@ def main():
         generate_code = gpt_interaction.generate_control_code(speech_input)
 
         commanda_parser.execute_command(robot,generate_code)
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":

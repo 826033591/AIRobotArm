@@ -20,3 +20,5 @@ LOGGING = {
     'filemode': 'a',  # 文件模式，'a'代表追加，'w'代表覆盖
 }
 
+
+print(pre_training)
