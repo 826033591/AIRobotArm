@@ -3,8 +3,7 @@ pre_training= "Generate Python code that matches the following requirements: " \
                " The instance already contains methods such as move_to_zero() to return to the initial position, " \
                "grab_position() to move to the grab position, and plus_x_coords(value), plus_y_coords(value), " \
                "plus_z_coords(value) to move specific distances on the X, Y, and Z axes. \nYou don’t need to output other textual content," \
-               " just output the code directly, for example, the robot arm returns to the origin.robot.move_to_zero()\nThe requirements are as follows:" \
-               "Let the robotic arm return to the origin.Move to grab position.Increase the Z-axis of the robot arm by 30"
+               " just output the code directly, for example, the robot arm returns to the origin. robot.move_to_zero()\n"
 
 
 

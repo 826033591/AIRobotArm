@@ -1,11 +1,12 @@
 import openai
-
+from settings import pre_training
 
 def generate_control_code(prompt):
     """
   使用ChatGPT根据提供的提示（prompt）生成控制机械臂的代码。
   """
     openai.api_key = ''
+    prompt = f"{pre_training}The command the user wants to execute is：'{prompt}'."
 
     try:
         response = openai.Completion.create(

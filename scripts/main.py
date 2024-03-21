@@ -2,6 +2,7 @@ import speech_to_text
 import gpt_interaction
 from mycobot_control import MyCobotController
 import commanda_parser
+import settings
 
 def main():
     print("system is running! Please say your  command")
